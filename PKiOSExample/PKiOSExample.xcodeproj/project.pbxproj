@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F35B77A1430E9AE001714FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F35B7791430E9AE001714FA /* UIKit.framework */; };
+		4F35B77C1430E9AE001714FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F35B77B1430E9AE001714FA /* Foundation.framework */; };
+		4F35B77E1430E9AE001714FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F35B77D1430E9AE001714FA /* CoreGraphics.framework */; };
+		4F35B7841430E9AE001714FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F35B7821430E9AE001714FA /* InfoPlist.strings */; };
+		4F35B7861430E9AE001714FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35B7851430E9AE001714FA /* main.m */; };
+		4F35B78A1430E9AE001714FA /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35B7891430E9AE001714FA /* PKAppDelegate.m */; };
+		4F35B78D1430E9AE001714FA /* PKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35B78C1430E9AE001714FA /* PKViewController.m */; };
+		4F35B7901430E9AE001714FA /* PKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F35B78E1430E9AE001714FA /* PKViewController_iPhone.xib */; };
+		4F35B7931430E9AE001714FA /* PKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F35B7911430E9AE001714FA /* PKViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F35B7751430E9AE001714FA /* PKiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F35B7791430E9AE001714FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F35B77B1430E9AE001714FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F35B77D1430E9AE001714FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F35B7811430E9AE001714FA /* PKiOSExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PKiOSExample-Info.plist"; sourceTree = "<group>"; };
+		4F35B7831430E9AE001714FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F35B7851430E9AE001714FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F35B7871430E9AE001714FA /* PKiOSExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PKiOSExample-Prefix.pch"; sourceTree = "<group>"; };
+		4F35B7881430E9AE001714FA /* PKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		4F35B7891430E9AE001714FA /* PKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
+		4F35B78B1430E9AE001714FA /* PKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKViewController.h; sourceTree = "<group>"; };
+		4F35B78C1430E9AE001714FA /* PKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKViewController.m; sourceTree = "<group>"; };
+		4F35B78F1430E9AE001714FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PKViewController_iPhone.xib; sourceTree = "<group>"; };
+		4F35B7921430E9AE001714FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PKViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F35B7721430E9AE001714FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F35B77A1430E9AE001714FA /* UIKit.framework in Frameworks */,
+				4F35B77C1430E9AE001714FA /* Foundation.framework in Frameworks */,
+				4F35B77E1430E9AE001714FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F35B76A1430E9AE001714FA = {
+			isa = PBXGroup;
+			children = (
+				4F35B77F1430E9AE001714FA /* PKiOSExample */,
+				4F35B7781430E9AE001714FA /* Frameworks */,
+				4F35B7761430E9AE001714FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F35B7761430E9AE001714FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F35B7751430E9AE001714FA /* PKiOSExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F35B7781430E9AE001714FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F35B7791430E9AE001714FA /* UIKit.framework */,
+				4F35B77B1430E9AE001714FA /* Foundation.framework */,
+				4F35B77D1430E9AE001714FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F35B77F1430E9AE001714FA /* PKiOSExample */ = {
+			isa = PBXGroup;
+			children = (
+				4F35B7881430E9AE001714FA /* PKAppDelegate.h */,
+				4F35B7891430E9AE001714FA /* PKAppDelegate.m */,
+				4F35B78B1430E9AE001714FA /* PKViewController.h */,
+				4F35B78C1430E9AE001714FA /* PKViewController.m */,
+				4F35B78E1430E9AE001714FA /* PKViewController_iPhone.xib */,
+				4F35B7911430E9AE001714FA /* PKViewController_iPad.xib */,
+				4F35B7801430E9AE001714FA /* Supporting Files */,
+			);
+			path = PKiOSExample;
+			sourceTree = "<group>";
+		};
+		4F35B7801430E9AE001714FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F35B7811430E9AE001714FA /* PKiOSExample-Info.plist */,
+				4F35B7821430E9AE001714FA /* InfoPlist.strings */,
+				4F35B7851430E9AE001714FA /* main.m */,
+				4F35B7871430E9AE001714FA /* PKiOSExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F35B7741430E9AE001714FA /* PKiOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F35B7961430E9AE001714FA /* Build configuration list for PBXNativeTarget "PKiOSExample" */;
+			buildPhases = (
+				4F35B7711430E9AE001714FA /* Sources */,
+				4F35B7721430E9AE001714FA /* Frameworks */,
+				4F35B7731430E9AE001714FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKiOSExample;
+			productName = PKiOSExample;
+			productReference = 4F35B7751430E9AE001714FA /* PKiOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F35B76C1430E9AE001714FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4F35B76F1430E9AE001714FA /* Build configuration list for PBXProject "PKiOSExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F35B76A1430E9AE001714FA;
+			productRefGroup = 4F35B7761430E9AE001714FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F35B7741430E9AE001714FA /* PKiOSExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F35B7731430E9AE001714FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F35B7841430E9AE001714FA /* InfoPlist.strings in Resources */,
+				4F35B7901430E9AE001714FA /* PKViewController_iPhone.xib in Resources */,
+				4F35B7931430E9AE001714FA /* PKViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F35B7711430E9AE001714FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F35B7861430E9AE001714FA /* main.m in Sources */,
+				4F35B78A1430E9AE001714FA /* PKAppDelegate.m in Sources */,
+				4F35B78D1430E9AE001714FA /* PKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F35B7821430E9AE001714FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F35B7831430E9AE001714FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F35B78E1430E9AE001714FA /* PKViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F35B78F1430E9AE001714FA /* en */,
+			);
+			name = PKViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4F35B7911430E9AE001714FA /* PKViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F35B7921430E9AE001714FA /* en */,
+			);
+			name = PKViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F35B7941430E9AE001714FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos4.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F35B7951430E9AE001714FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos4.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F35B7971430E9AE001714FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKiOSExample/PKiOSExample-Prefix.pch";
+				INFOPLIST_FILE = "PKiOSExample/PKiOSExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F35B7981430E9AE001714FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKiOSExample/PKiOSExample-Prefix.pch";
+				INFOPLIST_FILE = "PKiOSExample/PKiOSExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F35B76F1430E9AE001714FA /* Build configuration list for PBXProject "PKiOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F35B7941430E9AE001714FA /* Debug */,
+				4F35B7951430E9AE001714FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F35B7961430E9AE001714FA /* Build configuration list for PBXNativeTarget "PKiOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F35B7971430E9AE001714FA /* Debug */,
+				4F35B7981430E9AE001714FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F35B76C1430E9AE001714FA /* Project object */;
+}
