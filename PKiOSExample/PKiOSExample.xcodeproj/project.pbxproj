@@ -16,6 +16,8 @@
 		4F35B78D1430E9AE001714FA /* PKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35B78C1430E9AE001714FA /* PKViewController.m */; };
 		4F35B7901430E9AE001714FA /* PKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F35B78E1430E9AE001714FA /* PKViewController_iPhone.xib */; };
 		4F35B7931430E9AE001714FA /* PKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F35B7911430E9AE001714FA /* PKViewController_iPad.xib */; };
+		4F9CB08A1462F5A6007960BA /* PKPeerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CB0891462F5A6007960BA /* PKPeerManager.m */; };
+		4F9CB08E1462F75E007960BA /* PKPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CB08D1462F75E007960BA /* PKPeer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		4F35B78C1430E9AE001714FA /* PKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKViewController.m; sourceTree = "<group>"; };
 		4F35B78F1430E9AE001714FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PKViewController_iPhone.xib; sourceTree = "<group>"; };
 		4F35B7921430E9AE001714FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PKViewController_iPad.xib; sourceTree = "<group>"; };
+		4F9CB0881462F5A6007960BA /* PKPeerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPeerManager.h; sourceTree = "<group>"; };
+		4F9CB0891462F5A6007960BA /* PKPeerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPeerManager.m; sourceTree = "<group>"; };
+		4F9CB08C1462F75E007960BA /* PKPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPeer.h; sourceTree = "<group>"; };
+		4F9CB08D1462F75E007960BA /* PKPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPeer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				4F35B78C1430E9AE001714FA /* PKViewController.m */,
 				4F35B78E1430E9AE001714FA /* PKViewController_iPhone.xib */,
 				4F35B7911430E9AE001714FA /* PKViewController_iPad.xib */,
+				4F9CB0871462F5A6007960BA /* PairKit */,
 				4F35B7801430E9AE001714FA /* Supporting Files */,
 			);
 			path = PKiOSExample;
@@ -99,6 +106,18 @@
 				4F35B7871430E9AE001714FA /* PKiOSExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F9CB0871462F5A6007960BA /* PairKit */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CB0881462F5A6007960BA /* PKPeerManager.h */,
+				4F9CB0891462F5A6007960BA /* PKPeerManager.m */,
+				4F9CB08C1462F75E007960BA /* PKPeer.h */,
+				4F9CB08D1462F75E007960BA /* PKPeer.m */,
+			);
+			name = PairKit;
+			path = ../../PairKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +186,8 @@
 				4F35B7861430E9AE001714FA /* main.m in Sources */,
 				4F35B78A1430E9AE001714FA /* PKAppDelegate.m in Sources */,
 				4F35B78D1430E9AE001714FA /* PKViewController.m in Sources */,
+				4F9CB08A1462F5A6007960BA /* PKPeerManager.m in Sources */,
+				4F9CB08E1462F75E007960BA /* PKPeer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +275,7 @@
 				GCC_PREFIX_HEADER = "PKiOSExample/PKiOSExample-Prefix.pch";
 				INFOPLIST_FILE = "PKiOSExample/PKiOSExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,6 +287,7 @@
 				GCC_PREFIX_HEADER = "PKiOSExample/PKiOSExample-Prefix.pch";
 				INFOPLIST_FILE = "PKiOSExample/PKiOSExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
